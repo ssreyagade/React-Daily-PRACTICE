@@ -1,0 +1,127 @@
+.container {
+  height: 50vh;
+  width: 2px;
+  border: solid black 2px;
+  background-color: blue;
+}
+.Form-Toggle .active {
+  background-color: blueviolet;
+  color: yellow;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Page Background */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+}
+
+/* Center Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Main Card */
+.Form-Container {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Toggle Buttons */
+.Form-Toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.Form-Toggle button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Active Tab */
+.Form-Toggle .active {
+  background: #667eea;
+  color: white;
+}
+
+/* Form Styling */
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.Form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.Form input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+.Form button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #667eea;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Form button:hover {
+  background: #5a67d8;
+}
+
+/* Links */
+.Form p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.Form span {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Form span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.Form-Container {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Toggle */
+.Form-Toggle {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Form-Toggle button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+}
+
+.Form-Toggle .active {
+  background: #667eea;
+  color: white;
+}
+
+/* Form */
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.Form button {
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Form button.secondary {
+  background: #444;
+  margin-top: 10px;
+}
+
+.Form span {
+  color: #667eea;
+  cursor: pointer;
+}
+
+/* OTP */
+.otp-box {
+  margin-top: 15px;
+}
+
+/* QR */
+.qr-box {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.qr-box img {
+  width: 150px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
